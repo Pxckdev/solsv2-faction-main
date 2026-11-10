@@ -1,0 +1,173 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>SOLS Factions</title>
+  <meta name="description" content="Stories of Los Santos factions: tier information, requirements, upkeep and faction applications.">
+  <link rel="icon" href="favicon.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Unbounded:wght@700;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header class="topbar">
+    <a class="topbar-logo" href="#top"><img src="logo.png" alt="Sols"></a>
+    <nav class="topbar-nav">
+      <a href="#tiers" data-tab="info">Tiers</a>
+      <a href="#requirements" data-tab="info">Requirements</a>
+      <a href="#upkeep" data-tab="info">Upkeep</a>
+      <a class="btn btn-small btn-primary nav-keep" href="#apply" data-tab="apply">Apply</a>
+    </nav>
+  </header>
+
+  <main class="page" id="top">
+
+    <section class="hero">
+      <span class="badge">FACTIONS</span>
+      <h1 class="title">Stories of Los Santos Factions</h1>
+      <p class="tagline">Tiers, requirements, upkeep, and where to apply for your faction.</p>
+    </section>
+
+    <div class="lights" aria-hidden="true"></div>
+
+    <div class="tab-switch" role="tablist" aria-label="Section">
+      <button type="button" role="tab" class="tab active" data-tab="info" aria-selected="true">📖 Faction information</button>
+      <button type="button" role="tab" class="tab" data-tab="apply" aria-selected="false">📝 Apply</button>
+    </div>
+
+    <!-- ===================== FACTION INFO ===================== -->
+    <div class="panel" data-panel="info">
+
+      <section class="card" id="tiers">
+        <h2 class="section-title">Faction Tier Information</h2>
+        <p class="intro">Every faction starts at Tier 1 and works its way up through consistent, quality roleplay. Weapon access matches the tiers on the <a href="https://pxckdev.github.io/solsv2-faction-helper/">Faction Helper</a>.</p>
+        <div class="tier-cards">
+          <article class="tier-card t1">
+            <header><span class="tier-badge">TIER 1</span><h3>Street level</h3></header>
+            <p>New and approved factions. Prove you can keep up quality RP.</p>
+            <ul>
+              <li><b>Weapons:</b> stock pistols</li>
+              <li><b>Members:</b> up to 10</li>
+              <li><b>Turf:</b> one small block</li>
+              <li><b>How to get it:</b> approved faction application</li>
+            </ul>
+          </article>
+          <article class="tier-card t15">
+            <header><span class="tier-badge">TIER 1.5</span><h3>Established</h3></header>
+            <p>Factions that have shown steady activity and clean RP.</p>
+            <ul>
+              <li><b>Weapons:</b> switch pistols</li>
+              <li><b>Members:</b> up to 15</li>
+              <li><b>Turf:</b> a full neighborhood</li>
+              <li><b>How to get it:</b> 2 weeks at Tier 1 with all upkeep met</li>
+            </ul>
+          </article>
+          <article class="tier-card t2">
+            <header><span class="tier-badge">TIER 2</span><h3>Top tier</h3></header>
+            <p>The most active, respected factions in the city.</p>
+            <ul>
+              <li><b>Weapons:</b> ARs, Dracs and shotguns</li>
+              <li><b>Members:</b> up to 20</li>
+              <li><b>Turf:</b> a larger territory</li>
+              <li><b>How to get it:</b> 4 weeks at Tier 1.5, all upkeep met and no active strikes</li>
+            </ul>
+          </article>
+        </div>
+        <p class="reminder">Tier changes are decided by Faction Management. Meeting the minimum doesn't guarantee a tier up.</p>
+      </section>
+
+      <section class="card" id="requirements">
+        <h2 class="section-title">Faction Requirements</h2>
+        <p class="intro">What your faction needs before you apply.</p>
+        <ul class="rules">
+          <li>At least <b>6 active members</b>, all whitelisted with their own characters.</li>
+          <li>A clear <b>leader and second in command</b> who are responsible for the faction and talk to staff.</li>
+          <li>Every member has finished the <b>3-day character development phase</b>.</li>
+          <li>A written <b>faction backstory</b> that explains who you are and why you're in your area.</li>
+          <li>Your own <b>name, colors and look</b>. No copying an existing faction.</li>
+          <li>Everyone has read the <b>Server Guidelines, Faction ROE and Faction Roleplay Guide</b>.</li>
+          <li>No member has an <b>active faction ban</b> or is in another faction.</li>
+          <li>Leadership is <b>active in the Discord</b> and can be reached by staff.</li>
+        </ul>
+      </section>
+
+      <section class="card" id="upkeep">
+        <h2 class="section-title">Faction Upkeep Requirements</h2>
+        <p class="intro">What every faction has to keep doing each week to keep its tier.</p>
+        <ul class="rules">
+          <li>Keep at least <b>6 active members</b> playing every week.</li>
+          <li>At least <b>10 hours of faction RP</b> per week across your members.</li>
+          <li>All attacks and defenses are <b>logged</b>, at least <b>2 minutes</b> long, with <b>every attacker's and defender's POV</b>.</li>
+          <li>Keep your <b>faction roster</b> in the Discord up to date.</li>
+          <li>Follow the <b>Faction ROE</b> in every interaction.</li>
+          <li>Leadership replies to staff within <b>48 hours</b>.</li>
+        </ul>
+        <div class="consequences">
+          <h3>If upkeep isn't met</h3>
+          <ol>
+            <li><b>1 week missed:</b> warning from Faction Management.</li>
+            <li><b>2 weeks missed:</b> drop one tier.</li>
+            <li><b>3 strikes:</b> the faction is disbanded.</li>
+          </ol>
+        </div>
+      </section>
+    </div>
+
+    <!-- ===================== APPLY ===================== -->
+    <div class="panel" data-panel="apply" hidden>
+
+      <section class="card" id="apply">
+        <h2 class="section-title">Faction application</h2>
+        <p class="intro">Fill in every question as best you can. You'll get a Discord DM when Faction Management reviews it.</p>
+        <ul class="notes">
+          <li>You can only have <b>one application pending</b> at a time. Once it's accepted or denied, you can apply again.</li>
+          <li>Use the toolbar on the big boxes for <b>fonts, text sizes, links, photos, GIFs and videos</b>. Press <b>👁 Preview</b> to see how it'll look.</li>
+          <li>Make sure your <b>Discord username</b> is exactly right, or we can't message you.</li>
+        </ul>
+
+        <form id="appForm" novalidate>
+          <div class="field">
+            <label for="f-discord">Discord username <span class="req">*</span></label>
+            <input id="f-discord" type="text" maxlength="40" autocomplete="off" placeholder="e.g. pxck" required>
+            <small>Your username, not your display name. You can find it by clicking your name in Discord.</small>
+          </div>
+          <div class="field">
+            <label for="f-faction">Faction name <span class="req">*</span></label>
+            <input id="f-faction" type="text" maxlength="60" autocomplete="off" required>
+          </div>
+
+          <div id="questions"></div>
+
+          <!-- bots fill this in, people never see it -->
+          <input class="hp" type="text" name="website" tabindex="-1" autocomplete="off" aria-hidden="true">
+
+          <p class="form-error" id="formError" hidden></p>
+          <button type="submit" class="btn btn-primary submit" id="submitBtn">Submit application</button>
+          <p class="progress" id="progress" hidden></p>
+        </form>
+      </section>
+
+      <section class="card done" id="done" hidden>
+        <div class="done-icon">✅</div>
+        <h2 class="section-title">Application submitted</h2>
+        <p>Your faction application has been sent and will be looked at by Faction Management.</p>
+        <p class="muted">You'll get a Discord DM when it's accepted or denied. Please don't send another one while you wait.</p>
+      </section>
+    </div>
+
+  </main>
+
+  <footer class="footer">
+    <img src="logo.png" alt="">
+    <p>Stories of Los Santos · Factions</p>
+  </footer>
+
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+  <script src="config.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>

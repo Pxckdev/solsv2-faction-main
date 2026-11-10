@@ -30,16 +30,16 @@ const QUESTIONS = [
   {
     label: 'Faction type',
     type: 'select',
-    options: ['Gang', 'Cartel', 'Mafia', 'Motorcycle club', 'Crew / organization', 'Legal faction'],
+    options: ['Illegal Faction Type','Legal Faction Type'],
     required: true,
   },
   {
-    label: 'Leader and second in command (character names and Discord usernames)',
+    label: 'All Leaders And High Council Discord IDs.',
     type: 'short',
     required: true,
   },
   {
-    label: 'Full member list (character names and Discord usernames)',
+    label: 'All Members Discord IDs.',
     type: 'long',
     required: true,
     help: 'One member per line.',
@@ -51,20 +51,15 @@ const QUESTIONS = [
     help: 'Who you are, where you came from and why you run your area. Add photos, GIFs or videos if you have them.',
   },
   {
-    label: 'Faction colors, look and turf',
+    label: 'Faction color & turf',
     type: 'rich',
     required: true,
-    help: 'Colors, clothing style, cars and the area you want to claim. Pictures help a lot.',
+    help: 'Color and the area you want to claim. Pictures help a lot.',
   },
   {
-    label: 'What roleplay will your faction bring to the city?',
+    label: 'What type of roleplay will your faction bring to the city?',
     type: 'rich',
     required: true,
-  },
-  {
-    label: 'Clips or examples of your roleplay',
-    type: 'rich',
-    help: 'Optional. Streamable, YouTube or Medal links, or upload clips.',
   },
   {
     label: 'Has everyone read the Server Guidelines, Faction ROE and Faction Roleplay Guide?',

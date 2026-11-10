@@ -3,7 +3,7 @@
 const SITE = {
   // Discord webhook for your faction applications FORUM channel.
   // Discord: Server Settings > Integrations > Webhooks > New Webhook > pick your forum channel > Copy Webhook URL
-  webhookUrl: '',
+  webhookUrl: 'https://discord.com/api/webhooks/1569596765655531621/h4ClANMWwT44hAr7htUV-PBoRxnnNktQN4kH1-D5oxWGp1-De4DWUEaebE0x63G5w-oQ',
 
   // How long (minutes) before the same browser can send another application.
   // The bot also blocks anyone who already has a pending application.

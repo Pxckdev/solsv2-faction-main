@@ -45,10 +45,10 @@ const QUESTIONS = [
     help: 'One member per line.',
   },
   {
-    label: 'Faction backstory',
+    label: 'Thread Link.',
     type: 'rich',
     required: true,
-    help: 'Who you are, where you came from and why you run your area. Add photos, GIFs or videos if you have them.',
+    help: 'Faction Thread Link.',
   },
   {
     label: 'Faction color & turf',
